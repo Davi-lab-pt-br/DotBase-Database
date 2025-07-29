@@ -16,8 +16,8 @@ int main() {
 
         std::cout << "\n";
         ast.complete(input);
+        ast.parser.pos = 0;
     }
 
     return 0;
 }
-
