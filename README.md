@@ -22,6 +22,7 @@ Currently, the only supported command is:
 
 ```sql
 TABLE_CREATE name;
+```
 
 
 ## Portuguese-PT_BR
@@ -44,3 +45,4 @@ Atualmente, o único comando suportado é:
 
 ```sql
 TABLE_CREATE nome;
+```
