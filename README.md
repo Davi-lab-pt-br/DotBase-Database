@@ -1,4 +1,4 @@
-# DotBaseShell & DotBaseServer (Beta)
+# DotBaseShell & DotBaseServer (Alpha 0.5)
 
 ---
 
