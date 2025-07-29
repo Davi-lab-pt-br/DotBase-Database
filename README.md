@@ -22,3 +22,25 @@ Currently, the only supported command is:
 
 ```sql
 TABLE_CREATE name;
+
+
+## Portuguese-PT_BR
+
+### Visão Geral
+
+Este repositório contém dois componentes em estágio **beta**:
+
+- **DotBaseServer**: O servidor backend que você deve rodar primeiro.  
+- **DotBaseShell**: O shell interativo para enviar comandos ao servidor.
+
+### Uso
+
+1. **Inicie o DotBaseServer** antes de executar qualquer comando. O servidor fica aguardando conexões e processa as requisições.  
+2. Com o servidor rodando, use o **DotBaseShell** para conectar e executar comandos.
+
+### Comandos Suportados
+
+Atualmente, o único comando suportado é:
+
+```sql
+TABLE_CREATE nome;
