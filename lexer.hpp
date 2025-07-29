@@ -40,7 +40,6 @@ public:
             "LINE_COMMENT",
             "BLOCK_COMMENT"};
 
-        // Regex mestre que casa todos os tokens possíveis
         std::regex masterPattern(
             R"([a-zA-Z_][a-zA-Z0-9_]*|\d+(\.\d+)?|\s+|==|!=|<=|>=|&&|\|\||=|<|>|!|&|\||\+|\-|\*|\/|%|\+\+|\-\-|\(|\)|\{|\}|\[|\]|;|,|\.|\"([^\"\\]|\\.)*\"|//.*|/\*[\s\S]*?\*/)");
 
@@ -51,14 +50,13 @@ public:
         {
             std::string token = match.str();
 
-            // Verifica qual token_type casa com a string encontrada
             bool found = false;
             for (size_t i = 0; i < sizeof(token_types) / sizeof(token_types[0]); ++i)
             {
                 if (std::regex_match(token, token_types[i]))
                 {
                     if (types[i] != "SPACE")
-                    { // Ignora tokens SPACE
+                    { 
                         all_tokens.push_back(token);
                         all_types.push_back(types[i]);
                         std::cout << types[i] << ": '" << token << "'\n";
@@ -69,13 +67,12 @@ public:
             }
             if (!found)
             {
-                // Token desconhecido
                 all_tokens.push_back(token);
                 all_types.push_back("UNKNOWN");
                 std::cout << "UNKNOWN: '" << token << "'\n";
             }
 
-            searchStart = match.suffix().first; // Avança no texto
+            searchStart = match.suffix().first; 
         }
     }
 };
