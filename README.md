@@ -51,4 +51,4 @@ TABLE_CREATE nome;
 - **DotBaseShell**:  
   - 🇧🇷 Quando você for redirecionado para a página, clique no botão de download.  
   - 🇺🇸 When you are redirected to the page, click the download button.  
-  - 🔗 [[Download Alpha 0.1vl.zip](https://github.com/Davi-lab-pt-br/DotBase-Database/blob/main/DotBase-Files.rar)
+  - 🔗 [Download Alpha 0.1v.zip](https://github.com/Davi-lab-pt-br/DotBase-Database/blob/main/DotBase-Files.rar)
