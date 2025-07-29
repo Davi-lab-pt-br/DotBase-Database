@@ -24,10 +24,6 @@ Currently, the only supported command is:
 TABLE_CREATE name;
 ```
 
-### Download link:
-[Download ZIP v0.1](https://github.com/Davi-lab-pt-br/DotBase-Database/blob/main/DotBase-Files.rar)
-
-
 ## Português (PT-BR)
 
 ### Visão Geral
@@ -50,5 +46,9 @@ Atualmente, o único comando suportado é:
 TABLE_CREATE nome;
 ```
 
-### Link de download:
-[Download ZIP v0.1](https://github.com/Davi-lab-pt-br/DotBase-Database/blob/main/DotBase-Files.rar)
+## Download
+
+- **DotBaseShell**:  
+  - 🇧🇷 Quando você for redirecionado para a página, clique no botão de download.  
+  - 🇺🇸 When you are redirected to the page, click the download button.  
+  - 🔗 [Download DotBaseShell.zip](https://github.com/seu-usuario/seu-repo/releases/tag/v0.1)
