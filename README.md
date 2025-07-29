@@ -24,6 +24,9 @@ Currently, the only supported command is:
 TABLE_CREATE name;
 ```
 
+### Download link:
+[Download ZIP v0.1](releases/DotBase-Files.zip)
+
 
 ## Português (PT-BR)
 
@@ -46,3 +49,6 @@ Atualmente, o único comando suportado é:
 ```sql
 TABLE_CREATE nome;
 ```
+
+### Link de download:
+[Download ZIP v0.1](releases/DotBase-Files.zip)
