@@ -52,15 +52,15 @@ public:
 
             if (currentToken == "TABLE_CREATE" && currentType == "IDENTIFIER")
             {
-                match("TABLE_CREATE"); // consume TABLE_CREATE
+                match("TABLE_CREATE"); 
 
-                tablename = currentToken; // save table name
-                nextToken();              // advance to next token
+                tablename = currentToken; 
+                nextToken();             
 
                 if (currentToken == ";")
                 {
-                    match(";");                 // consume semicolon
-                    operation = "TABLE_CREATE"; // set operation only after success
+                    match(";");                 
+                    operation = "TABLE_CREATE"; 
                 }
                 else
                 {
