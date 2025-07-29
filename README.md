@@ -25,7 +25,7 @@ TABLE_CREATE name;
 ```
 
 ### Download link:
-[Download ZIP v0.1](https://github.com/Davi-lab-pt-br/DotBase-Database/blob/main/releases/DotBase-Files.zip)
+[Download ZIP v0.1](https://github.com/Davi-lab-pt-br/DotBase-Database/blob/main/DotBase-Files.rar)
 
 
 ## Português (PT-BR)
@@ -51,4 +51,4 @@ TABLE_CREATE nome;
 ```
 
 ### Link de download:
-[Download ZIP v0.1](https://github.com/Davi-lab-pt-br/DotBase-Database/blob/main/releases/DotBase-Files.zip)
+[Download ZIP v0.1](https://github.com/Davi-lab-pt-br/DotBase-Database/blob/main/DotBase-Files.rar)
