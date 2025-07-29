@@ -25,7 +25,7 @@ TABLE_CREATE name;
 ```
 
 
-## Português-PT_BR
+## Português (PT-BR)
 
 ### Visão Geral
 
